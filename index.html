@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Undangan Pernikahan Janner &amp; Rachel</title>
+<meta property="og:title" content="Undangan Pernikahan Janner &amp; Rachel">
+<meta property="og:image" content="img/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💍%3C/text%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--red:#6f1118;--red2:#85141d;--dark:#221b15;--gold:#d9ab50;--cream:#f3e6d0;--soft:#d8c7ad;
+--orn:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='22'%3E%3Cpath d='M14 2l10 9-10 9-10-9z' fill='none' stroke='%23d9ab50' stroke-width='1.5'/%3E%3Cpath d='M14 7l5 4-5 4-5-4z' fill='%23d9ab50'/%3E%3C/svg%3E")}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--dark);color:var(--cream);font-family:'Lora',Georgia,serif;line-height:1.75;text-align:center}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;margin:0;color:var(--gold)}
+h2{font-size:2.3rem;line-height:1.15;margin-bottom:14px}
+p{margin:0 0 10px}
+a{color:inherit}
+.hero{position:fixed;inset:0 auto 0 0;width:58%;overflow:hidden;background:#111}
+.hero img{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .bg{object-fit:cover;filter:blur(26px) brightness(.7);transform:scale(1.15)}
+.hero .fg{object-fit:contain}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.55),transparent 45%)}
+.hero h1{position:absolute;z-index:1;left:44px;bottom:36px;color:#fff;font-size:clamp(3rem,6vw,5.2rem);line-height:1;text-align:left}
+.panel{margin-left:58%}
+section{padding:72px 36px;position:relative;scroll-margin-top:0}
+.inner{max-width:480px;margin:0 auto}
+.orn{height:22px;background:var(--orn) repeat-x center;width:100%}
+.cover{background:var(--red);min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;padding:0}
+.cover .mid{padding:40px 30px}
+.small{font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cream)}
+.cover h1{font-size:clamp(2.8rem,5.2vw,4.4rem);color:#fff;margin:14px 0 18px;line-height:1.05}
+.guest{display:none;margin:0 0 22px;color:var(--soft)}
+.guest b{display:block;font-weight:500;color:var(--gold);font-size:1.25rem;font-family:'Cormorant Garamond',serif}
+.date{font-size:1.15rem;margin-bottom:26px}
+.count{display:flex;justify-content:center;gap:10px}
+.count div{border:1px solid var(--gold);border-radius:12px;padding:8px 0;width:68px}
+.count b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.7rem;color:var(--gold);font-weight:500;line-height:1.2}
+.count span{font-size:.7rem;color:var(--soft)}
+.dark{background:var(--dark)}.maroon{background:var(--red)}
+.frame{padding:12px;border-radius:22px;margin:0 auto 26px;max-width:270px;background:repeating-linear-gradient(90deg,#d9ab50 0 6px,#85141d 6px 12px,#221b15 12px 14px,#d9ab50 14px 20px)}
+.frame img{display:block;width:100%;height:auto;border-radius:14px}
+.nm{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:2rem;color:var(--gold);line-height:1.2;margin:4px 0 8px}
+.par{color:var(--soft);font-size:.95rem}
+.amp{font-family:'Cormorant Garamond',serif;font-size:2.6rem;color:var(--red2);margin:30px 0}
+.note{font-size:.78rem;color:var(--soft);margin-top:26px}
+.quote{font-style:italic;font-size:1.05rem}
+.gal{display:flex;gap:8px;margin-top:22px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:6px;scrollbar-width:thin;scrollbar-color:var(--gold) transparent}
+.gal img{height:280px;width:auto;flex:none;scroll-snap-align:center;border-radius:8px;display:block}
+.gb{display:flex;justify-content:center;gap:12px;margin-top:14px}
+.gb .btn{width:42px;height:42px;padding:0;display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+.ev{margin:24px 0}.ev h3{font-size:1.9rem}
+.btn{display:inline-block;border:1px solid var(--gold);color:var(--gold);background:transparent;border-radius:999px;padding:9px 26px;text-decoration:none;font:inherit;font-size:.95rem;cursor:pointer}
+.btn:hover,.btn:focus-visible{background:var(--gold);color:var(--dark);outline:none}
+form{display:grid;gap:12px;text-align:left;margin-top:18px}
+input,textarea{width:100%;font:inherit;color:var(--cream);background:rgba(255,255,255,.07);border:1px solid rgba(217,171,80,.5);border-radius:12px;padding:12px 14px}
+input:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+form .btn{justify-self:center;margin-top:4px}
+.bank{border:1px solid var(--gold);border-radius:16px;padding:20px 16px;margin:16px 0}
+.bank b{font-family:'Cormorant Garamond',serif;font-size:1.6rem;color:var(--gold);font-weight:500}
+.bank .no{font-size:1.35rem;letter-spacing:.06em;margin:2px 0}
+.bank .btn{margin-top:10px}
+footer{padding:56px 30px 110px;background:var(--red)}
+footer .hr{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:2.3rem;color:var(--gold)}
+.nav{position:fixed;z-index:5;left:58%;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;gap:6px;padding:10px 8px;border-radius:30px;background:var(--red);box-shadow:0 0 18px rgba(0,0,0,.45)}
+.nav a{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;color:var(--gold);text-decoration:none}
+.nav a.on{background:var(--gold);color:var(--red)}
+.nav svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.mus{position:fixed;z-index:6;top:calc(16px + env(safe-area-inset-top,0px));left:calc(58% - 62px);width:46px;height:46px;border-radius:50%;border:0;background:#fff;color:var(--red);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 12px rgba(0,0,0,.35)}
+.mus svg{width:20px;height:20px;fill:currentColor}
+.mus:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+@media(max-width:860px){
+ .mus{left:auto;right:16px}
+ .hero{position:relative;width:100%;height:auto;aspect-ratio:6048/4024}
+ .hero h1{display:none}
+ .hero::after{background:linear-gradient(to top,var(--red),transparent 35%)}
+ .panel{margin:0}
+ .cover{min-height:auto}
+ .nav{left:50%;top:auto;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);flex-direction:row;padding:8px 10px}
+ section{padding:60px 22px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+<symbol id="i-img" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+<symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4"/><path d="M12 8v13M19 12v9H5v-9M7.5 8a2.5 2.5 0 0 1 0-5C11 3 12 8 12 8s1-5 4.5-5a2.5 2.5 0 0 1 0 5"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></symbol>
+</defs></svg>
+
+<div class="hero"><img class="bg" src="img/hero.jpg" alt="" aria-hidden="true"><img class="fg" src="img/hero.jpg" alt="Foto prewedding Janner dan Rachel berjalan bergandengan tangan"><h1>Janner &amp;<br>Rachel</h1></div>
+
+<audio id="bgm" src="audio/lagu.mp3" loop preload="none"></audio>
+<button class="mus" id="mus" type="button" aria-label="Putar musik"><svg><use href="#i-play"/></svg></button>
+
+<nav class="nav" aria-label="Navigasi bagian">
+ <a href="#cover" class="on" aria-label="Awal"><svg><use href="#i-heart"/></svg></a>
+ <a href="#couple" aria-label="Mempelai"><svg><use href="#i-img"/></svg></a>
+ <a href="#acara" aria-label="Acara"><svg><use href="#i-cal"/></svg></a>
+ <a href="#ucapan" aria-label="Ucapan dan doa"><svg><use href="#i-msg"/></svg></a>
+ <a href="#hadiah" aria-label="Kirim hadiah"><svg><use href="#i-gift"/></svg></a>
+</nav>
+
+<main class="panel">
+<section id="cover" class="cover">
+ <div class="orn"></div>
+ <div class="mid">
+  <p class="small">The Wedding of</p>
+  <p class="guest" id="guest">Kepada Yth.<b id="gname"></b></p>
+  <h1>Janner &amp; Rachel</h1>
+  <p class="date">Jumat, 18 Desember 2026</p>
+  <div class="count" id="count" aria-label="Hitung mundur"></div>
+ </div>
+ <div class="orn"></div>
+</section>
+
+<section id="couple" class="dark">
+ <div class="inner">
+  <p class="small">Horas! Kami mengundang Anda</p>
+  <p class="par" style="margin-bottom:34px">Dengan sukacita dan memohon berkat Tuhan, kami akan melangsungkan pernikahan.</p>
+  <div class="frame"><img src="img/groom.jpg" alt="Mei Janner Silalahi" loading="lazy"></div>
+  <div class="nm">Mei Janner Silalahi</div>
+  <p class="par">Putra dari<br>Bapak Rafael Silalahi (+)<br>&amp; Ibu Sadima Manalu</p>
+  <div class="amp">&amp;</div>
+  <div class="frame"><img src="img/bride.jpg" alt="Rachel Rona Uli Pakpahan" loading="lazy"></div>
+  <div class="nm">Rachel Rona Uli Pakpahan, S.ST.Par</div>
+  <p class="par">Putri dari<br>Bapak Marangin Pakpahan<br>&amp; Ibu Tiomsa Hutahaean (+)</p>
+  <p class="note">(+) almarhum / almarhumah</p>
+ </div>
+</section>
+
+<section class="maroon">
+ <div class="inner">
+  <h2>Sabda Tuhan</h2>
+  <p class="quote">“Kenakanlah kasih di atas segalanya, sebab kasih mengikat semuanya menjadi satu dan menyempurnakannya.”</p>
+  <p class="par">Kolose 3:14</p>
+ </div>
+</section>
+
+<section id="galeri" class="dark">
+ <div class="inner">
+  <h2>Galeri</h2>
+  <p class="par">Potongan cerita kami.</p>
+  <div class="gal" id="gal">
+   <img src="img/g0.jpg" alt="Janner dan Rachel berjalan bergandengan" loading="lazy">
+   <img src="img/g1.jpg" alt="Galeri 1" loading="lazy"><img src="img/g2.jpg" alt="Galeri 2" loading="lazy"><img src="img/g3.jpg" alt="Galeri 3" loading="lazy">
+   <img src="img/g4.jpg" alt="Galeri 4" loading="lazy"><img src="img/g5.jpg" alt="Galeri 5" loading="lazy"><img src="img/g6.jpg" alt="Galeri 6" loading="lazy">
+   <img src="img/g7.jpg" alt="Galeri 7" loading="lazy"><img src="img/g8.jpg" alt="Galeri 8" loading="lazy"><img src="img/g9.jpg" alt="Galeri 9" loading="lazy">
+   <img src="img/g10.jpg" alt="Galeri 10" loading="lazy">
+  </div>
+  <div class="gb"><button class="btn" type="button" data-g="-1" aria-label="Sebelumnya">‹</button><button class="btn" type="button" data-g="1" aria-label="Berikutnya">›</button></div>
+ </div>
+</section>
+
+<section id="acara" class="maroon">
+ <div class="inner">
+  <h2>Acara</h2>
+  <div class="ev">
+   <h3>Pemberkatan Pernikahan</h3>
+   <p>Jumat, 18 Desember 2026<br>Pukul 09.00 WIB</p>
+   <p>Gereja Katolik Stasi Santo Alfonsus<br>Tuktuk, Samosir</p>
+   <a class="btn" href="https://www.bing.com/maps/search?name=Gereja+Katolik+Stasi+Santo+Alfonsus%2C+Tuktuk&amp;FORM=MPSRPL&amp;style=r&amp;ss=id.ypid%3AYNEA4F4F65271D8956&amp;q=Gereja+Katolik+Stasi+Santo+Alfonsus%2C+Tuktuk&amp;ppois=2.671056032180786_98.85218048095703_Gereja+Katolik+Stasi+Santo+Alfonsus%2C+Tuktuk&amp;cp=2.671056%7E98.852180&amp;lvl=16" target="_blank" rel="noopener">Lihat lokasi</a>
+  </div>
+  <div class="ev">
+   <h3>Pesta Adat &amp; Resepsi</h3>
+   <p>Jumat, 18 Desember 2026<br>Langsung setelah pemberkatan</p>
+  </div>
+  <div class="orn" style="margin-top:34px"></div>
+ </div>
+</section>
+
+<section id="ucapan" class="dark">
+ <div class="inner">
+  <h2>Ucapan &amp; Doa</h2>
+  <p class="par">Tulis ucapan dan doa untuk kami. Pesan akan terkirim lewat WhatsApp.</p>
+  <form id="wish">
+   <input id="w-name" placeholder="Nama Anda" required maxlength="60" autocomplete="name">
+   <textarea id="w-msg" rows="4" placeholder="Ucapan dan doa" required maxlength="500"></textarea>
+   <button class="btn" type="submit">Kirim ucapan</button>
+  </form>
+ </div>
+</section>
+
+<section id="hadiah" class="maroon">
+ <div class="inner">
+  <h2>Kirim Hadiah</h2>
+  <p class="par">Kehadiran dan doa Anda sudah menjadi hadiah terbaik bagi kami. Bila berkenan memberi tanda kasih, dapat dikirim ke rekening berikut.</p>
+  <div class="bank"><b>BRI</b><div class="no" id="n1">524701027273534</div><p class="par">a.n. Mei Janner Silalahi</p><button class="btn" type="button" data-copy="n1">Salin nomor</button></div>
+  <div class="bank"><b>Bank Mandiri</b><div class="no" id="n2">1060015608832</div><p class="par">a.n. Rachel Rona Uli Pakpahan</p><button class="btn" type="button" data-copy="n2">Salin nomor</button></div>
+ </div>
+</section>
+
+<footer>
+ <div class="hr">Mauliate &amp; Horas!</div>
+ <p class="par" style="margin-top:12px">Terima kasih atas doa dan kehadiran Anda.<br>Tuhan memberkati.</p>
+ <p style="margin-top:18px"><b>Janner &amp; Rachel</b><br><span class="par">beserta keluarga besar</span></p>
+</footer>
+</main>
+
+<script>
+(function(){
+  var WA_NUMBER='6281265112559'; // isi nomor WhatsApp pengantin, format 628xxxxxxxxxx
+  var q=new URLSearchParams(location.search).get('to');
+  if(q){document.getElementById('gname').textContent=q;document.getElementById('guest').style.display='block'}
+  var target=new Date('2026-12-18T09:00:00+07:00').getTime(),el=document.getElementById('count');
+  function tick(){var d=Math.max(0,target-Date.now()),v=[Math.floor(d/864e5),Math.floor(d%864e5/36e5),Math.floor(d%36e5/6e4),Math.floor(d%6e4/1e3)],l=['Hari','Jam','Menit','Detik'];
+    el.innerHTML=v.map(function(x,i){return '<div><b>'+x+'</b><span>'+l[i]+'</span></div>'}).join('')}
+  tick();setInterval(tick,1000);
+  document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
+    var t=document.getElementById(b.dataset.copy).textContent,o=b.textContent;
+    function ok(){b.textContent='Tersalin ✓';setTimeout(function(){b.textContent=o},1800)}
+    try{navigator.clipboard.writeText(t).then(ok,function(){b.textContent=t})}catch(e){b.textContent=t}})});
+  document.getElementById('wish').addEventListener('submit',function(e){e.preventDefault();
+    var n=document.getElementById('w-name').value.trim(),m=document.getElementById('w-msg').value.trim();
+    var txt='Horas! Saya '+n+'. '+m+' (Ucapan untuk pernikahan Janner & Rachel)';
+    window.open('https://wa.me/'+WA_NUMBER+'?text='+encodeURIComponent(txt),'_blank','noopener')});
+  document.querySelectorAll('[data-g]').forEach(function(b){b.addEventListener('click',function(){var g=document.getElementById('gal');g.scrollBy({left:b.dataset.g*g.clientWidth*.8,behavior:'smooth'})})});
+  var au=document.getElementById('bgm'),mb=document.getElementById('mus'),paused=false;
+  function ui(on){mb.innerHTML='<svg><use href="#'+(on?'i-pause':'i-play')+'"/></svg>';mb.setAttribute('aria-label',on?'Jeda musik':'Putar musik')}
+  mb.addEventListener('click',function(e){e.stopPropagation();
+    if(au.paused){paused=false;au.play().then(function(){ui(true)},function(){})}else{paused=true;au.pause();ui(false)}});
+  function first(e){if(e.target.closest&&e.target.closest('#mus'))return;document.removeEventListener('pointerdown',first);if(au.paused&&!paused){au.play().then(function(){ui(true)},function(){})}}
+  document.addEventListener('pointerdown',first);
+  var links=[].slice.call(document.querySelectorAll('.nav a')),map={};
+  links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(en){
+    if(en.isIntersecting&&map[en.target.id]){links.forEach(function(a){a.classList.remove('on')});map[en.target.id].classList.add('on')}})},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(map).forEach(function(id){var s=document.getElementById(id);if(s)io.observe(s)})}
+})();
+</script>
+</body>
+</html>
